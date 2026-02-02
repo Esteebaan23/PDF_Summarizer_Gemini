@@ -51,7 +51,6 @@ Make sure you have the following installed and configured:
 - A **Google Cloud Platform (GCP)** account
 - **Vertex AI API enabled** in your GCP project
 - **Docker** and **Docker Compose**
-- Google Cloud **Application Default Credentials (ADC)** stored in:
 
 
 ---
