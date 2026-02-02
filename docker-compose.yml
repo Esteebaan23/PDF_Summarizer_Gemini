@@ -1,0 +1,13 @@
+services:
+  rag-app:
+    build: .
+    image: rag-gcp-prod
+    container_name: rag-container
+    ports:
+      - "8080:8080"
+    volumes:
+      # Usamos la carpeta local que creamos para las credenciales
+      - ./gcloud_config:/root/.config/gcloud
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/root/.config/gcloud/application_default_credentials.json
+    restart: always

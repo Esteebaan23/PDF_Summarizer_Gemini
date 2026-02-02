@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+python-multipart
+# Los paquetes modulares de LangChain
+langchain
+langchain-text-splitters
+langchain-google-vertexai
+langchain-community
+# Otros necesarios
+faiss-cpu
+pypdf
+google-cloud-aiplatform
+gradio
+requests
